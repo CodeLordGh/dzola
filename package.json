@@ -1,8 +1,8 @@
 {
-  "name": "dzola",
-  "displayName": "Dzɔla - AI Test Generator",
-  "description": "An open-source AI-powered test generation extension for VS Code, named after the Ewe word for 'guardian'",
-  "version": "0.0.1",
+  "name": "vscode-test-generation",
+  "displayName": "Test Generation",
+  "description": "AI-powered test generation for VS Code",
+  "version": "0.1.0",
   "publisher": "baboh-kossi-mawuena",
   "author": {
     "name": "Baboh Kossi Mawuena",
@@ -52,21 +52,25 @@
     "@types/eslint-scope": "^3.7.7",
     "@types/estree": "^1.0.6",
     "@types/json-schema": "^7.0.15",
-    "@types/node": "^16.18.34",
+    "@types/node": "^20.11.5",
     "@types/semver": "^7.5.8",
-    "@types/vscode": "^1.80.0",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
-    "eslint": "^8.44.0",
+    "@types/vscode": "^1.85.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0",
     "nodemon": "^3.0.2",
-    "prettier": "^3.0.0",
-    "ts-loader": "^9.4.3",
-    "typescript": "^5.1.3",
-    "webpack": "^5.85.0",
-    "webpack-cli": "^5.1.1",
+    "prettier": "^3.2.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
     "minimatch": "^9.0.3"
   },
   "dependencies": {
-    "axios": "^1.4.0"
+    "axios": "^1.6.5",
+    "@anthropic-ai/sdk": "^0.12.2",
+    "@azure/openai": "^1.0.0-beta.11",
+    "@google-cloud/vertexai": "^0.2.1",
+    "openai": "^4.24.7"
   }
 }
