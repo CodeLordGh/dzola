@@ -14,11 +14,11 @@ node_modules
 .env.*.local
 
 # Documentation and diagrams
+docs/
 development-guide.md
 roadmap.md
 *-flow.md
 *-architecture.md
-docs/diagrams/
 
 # Logs
 logs
@@ -41,6 +41,3 @@ coverage/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json 
-
-*.md
-*.mdx
